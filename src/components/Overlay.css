@@ -1,0 +1,42 @@
+/* Overlay.css */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 20vw;
+  background-color: rgba(126, 126, 126, 0.6); /* Adjust the RGB values and alpha (opacity) as needed */
+  z-index: 1;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  margin-top: 20px;
+  margin-bottom: 10px; /* Add margin between title and button list */
+}
+
+.name{
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+
+.sub-title {
+  font-size: 18px; 
+}
+
+.button-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center buttons horizontally within the list */
+}
+
+.button-list button {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}

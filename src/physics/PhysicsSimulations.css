@@ -1,0 +1,21 @@
+/* PhysicsSimulations.css */
+.physics-simulations {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+  background-color: #bbbbbb;
+}
+
+.simulation-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+.simulation-buttons button {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}

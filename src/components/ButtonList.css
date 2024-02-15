@@ -1,0 +1,19 @@
+/* ButtonList.css */
+.button-list {
+    display: flex;
+    flex-direction: column; /* Display buttons in a vertical list */
+    align-items: flex-start; /* Align buttons to the start of the column */
+  }
+  
+  .button-list button {
+    margin-bottom: 8px; /* Add margin between buttons for spacing */
+  }
+  
+  .unstyled-button {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    padding: 0;
+  }
