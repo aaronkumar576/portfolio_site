@@ -1,11 +1,11 @@
 /* PhysicsSimulations.css */
-.physics-simulations {
+.simulations {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
   width: 100vw;
-  background-color: #bbbbbb;
+  background-color: #bbbbbb;  /* bbbbbb */
 }
 
 .simulation-buttons {
